@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # cars-spot
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# CarsSpot
+>>>>>>> f37b88c6907c22fbb7d01f341971711ab6e2cee2

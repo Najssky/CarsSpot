@@ -1,5 +1,4 @@
 <template>
-  Hello
   <header-component></header-component>
 </template>
 

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+    .hero-bg {
+      background-image: url('../images/Hero.png'), url('../images/Element.png');
+      background-position: bottom calc(0% + 120px) right, top right calc(0% + 75px) ;
+      background-repeat: no-repeat;
+      background-size: 1360px auto,860px auto;
+    }
+  }

@@ -1,10 +1,10 @@
 <template>
   <Disclosure as="nav" v-slot="{ open }">
     <div class="max-w-full px-2 sm:px-6 lg:px-8">
-      <div class="max-w-[1600px] flex h-[79px] items-center justify-between">
+      <div class="max-w-[1600px] flex h-28 items-center justify-between mx-32">
         <!-- Logo po lewej stronie -->
-        <div class="flex items-center" style="margin-left: 50px;">
-          <img class="h-[32.61px] w-[152.79px]" src="../assets/images/logo.svg" alt="Your Company" />
+        <div class="flex items-center">
+          <img class="w-48 h-auto" src="../assets/images/logo.svg" alt="CarsSpot" />
         </div>
 
         
@@ -12,12 +12,12 @@
         <div class="flex flex-1 justify-center items-center">
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" :class="[item.current ? 'text-black' : 'text-black hover:text-gray', 'rounded-md px-3 py-2 text-sm font-medium font-sans']" :aria-current="item.current ? 'page' : undefined">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-black font-normal rounded-md px-3 py-2 text-xl font-sans">{{ item.name }}</a>
             </div>
           </div>
         </div>
         <div class="relative">
-          <button type="button" class="text-white bg-button-blue focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">Zadzwoń do nas</button>
+          <button type="button" class="text-white bg-button-blue focus:ring-4 font-normal rounded-lg text-base px-7 py-4 me-2 mb-2 focus:outline-none">Zadzwoń do nas</button>
         </div>
         <!-- Button po prawej stronie -->
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden" style="margin-right: 50px;">

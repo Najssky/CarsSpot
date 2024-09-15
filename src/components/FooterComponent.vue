@@ -1,12 +1,9 @@
 <template>
   <footer class="w-full py-8 border-t border-white bg-[#282828] font-roboto-condensed text-xl px-32 text-white">
     <div class="flex justify-between items-center">
-      <!-- Paragraf po lewej stronie -->
       <p class="text-semibold">
         Cars Spot
       </p>
-
-      <!-- Przycisk po prawej stronie -->
       <button class="underline-btn flex items-center">
         Polityka prywatności
       </button>

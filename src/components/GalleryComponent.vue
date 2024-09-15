@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-full h-[1180px] sm:px-6 lg:px-8">
-    <div class="max-w-[1760px] h-[276px] pt-[106px] grid grid-cols-6 gap-4 mx-20">
+  <div class="max-w-full min-h-[1180px] sm:px-6 lg:px-8">
+    <div class="max-w-[1760px] min-h-[276px] pt-[106px] grid grid-cols-6 gap-4 mx-20">
       <p class="col-span-2 text-2xl text-button-blue font-normal font-roboto-condensed mb-1">Prezentacja firmy</p>
       <div class="col-span-4"></div>
       <h1 class="col-span-4 font-bebas text-6xl font-normal leading-tight">ZOBACZ NASZĄ GALERIĘ ZDJĘĆ</h1>
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <div class="max-w-full pt-[106px] h-[904px] ml-20">
+    <div class="max-w-full pt-[106px] min-h-[904px] ml-20">
     <div class="relative swiper-container">
       <swiper
         :slidesPerView="2.1"

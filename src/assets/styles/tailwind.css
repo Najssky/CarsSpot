@@ -8,6 +8,12 @@
     background-repeat: no-repeat;
     background-size: 1360px auto,860px auto;
   }
+  @media (max-width: 768px) {
+    .hero-bg {
+      background-position: bottom 10% right 10%, top right 10%;
+      background-size: contain, contain;
+    }
+  }
 }
 @layer base {
   @font-face {

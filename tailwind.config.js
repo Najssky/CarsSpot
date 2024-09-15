@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Roboto', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
-        bebas: ['Bebas Neue', 'sans-serif'],
+        'roboto': ['Roboto'],
+        'roboto-condensed': ["'Roboto Condensed'"],
+        'bebas': ['"Bebas Neue"'],
       },
       fontSize: {
         'custom-size': '76.29px',

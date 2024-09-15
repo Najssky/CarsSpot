@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 @layer utilities {
-    .hero-bg {
-      background-image: url('../images/Hero.png'), url('../images/Element.png');
-      background-position: bottom calc(0% + 120px) right, top right calc(0% + 75px) ;
-      background-repeat: no-repeat;
-      background-size: 1360px auto,860px auto;
-    }
+  .hero-bg {
+    background-image: url('../images/Hero.png'), url('../images/Element.png');
+    background-position: bottom calc(0% + 120px) right, top right calc(0% + 75px) ;
+    background-repeat: no-repeat;
+    background-size: 1360px auto,860px auto;
   }
+}
+@layer base {
+  @font-face {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/BebasNeue-Regular.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/BebasNeue-Regular.ttf') format('ttf');
+  }
+  @font-face {
+    font-family: 'RobotoCondensed';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/BebasNeue-Regular.ttf') format('ttf');
+  }
+}

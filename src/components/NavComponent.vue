@@ -12,12 +12,12 @@
         <div class="flex flex-1 justify-center items-center">
           <div class="hidden sm:ml-6 sm:block">
             <div class="flex space-x-4">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-black font-normal rounded-md px-3 py-2 text-xl font-sans">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" class="text-black font-normal rounded-md px-3 py-2 text-xl">{{ item.name }}</a>
             </div>
           </div>
         </div>
         <div class="relative">
-          <button type="button" class="text-white bg-button-blue focus:ring-4 font-normal rounded-lg text-base px-7 py-4 me-2 mb-2 focus:outline-none">Zadzwoń do nas</button>
+          <button type="button" class="text-white bg-button-blue focus:ring-4 font-medium rounded-lg text-lg px-8 py-4 me-2 mb-2 focus:outline-none">Zadzwoń do nas</button>
         </div>
         <!-- Button po prawej stronie -->
         <div class="absolute inset-y-0 right-0 flex items-center sm:hidden" style="margin-right: 50px;">

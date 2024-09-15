@@ -2,15 +2,17 @@
   <header-component></header-component>
   <gallery-component></gallery-component>
   <seo-component></seo-component>
+  <footer-component></footer-component>
 </template>
 
 <script>
+import FooterComponent from './components/FooterComponent.vue';
 import GalleryComponent from './components/GalleryComponent.vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import SeoComponent from './components/SeoComponent.vue';
 export default {
   name: "App",
-  components: { HeaderComponent,GalleryComponent, SeoComponent},
+  components: { HeaderComponent,GalleryComponent, SeoComponent, FooterComponent},
 };
 </script>
 
